@@ -48,7 +48,6 @@ function productList(where, itemNumber, product) {
 let totalPriceFromListener;
 /* this function use for gaining totalPrice from Listener */
 function collectValueFromListener(value) {
-  console.log("hello hafiz");
   totalPriceFromListener = value;
   return totalPriceFromListener;
 }
@@ -61,7 +60,6 @@ function calculateDiscount(inpCoupon, where) {
   let calculateDiscountAmount;
   if (couponString === "SELL200") {
     /* discount calculation */
-    console.log(totalPriceFromListener);
     calculateDiscountAmount = (totalPriceFromListener * 20) / 100;
     discountDis.textContent = calculateDiscountAmount.toFixed(2);
     /* calculate total price after discount */
