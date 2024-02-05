@@ -67,7 +67,7 @@
     <main
       class="flex flex-col-reverse md:flex-row justify-center gap-5 bg-[#F8F8F8] p-5 md:pt-14 lg:pt-28 md:px-12 lg:px-[7.50vw] md:pb-28 lg:pb-36"
     >
-      <!-- card section -->
+      <!-- whole card section -->
       <section class="space-y-7 md:space-y-14">
         <!-- kitchenware container -->
         <div>
@@ -79,7 +79,10 @@
           <!-- Kitchenware card container -->
           <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <!-- card 1 -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameK.accessories1','k.accessories1Price')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -115,18 +118,24 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">
+                <!-- item -->
+                <h4
+                  id="nameK.accessories1"
+                  class="text-[#111] text-lg font-semibold"
+                >
                   K. Accessories
                 </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">39.00</span>TK
+                  <span id="k.accessories1Price">39.00</span>TK
                 </p>
               </div>
             </div>
 
             <!-- card 2 of kitchenware -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameK.accessories2','k.accessories2Price')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -167,17 +176,23 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">
+                <!-- item -->
+                <h4
+                  id="nameK.accessories2"
+                  class="text-[#111] text-lg font-semibold"
+                >
                   K. Accessories
                 </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">25.00</span>TK
+                  <span id="k.accessories2Price">25.00</span>TK
                 </p>
               </div>
             </div>
             <!-- card 3 of kitchenware -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameHomeCooker','homeCookerPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -218,10 +233,15 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">Home Cooker</h4>
+                <!-- item -->
+                <h4
+                  id="nameHomeCooker"
+                  class="text-[#111] text-lg font-semibold"
+                >
+                  Home Cooker
+                </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">49.00</span>TK
+                  <span id="homeCookerPrice">49.00</span>TK
                 </p>
               </div>
             </div>
@@ -238,7 +258,10 @@
           <!-- sportswear card container -->
           <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <!-- card 1 of sportswear -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameSportsBlackCap','sportsBlackCapPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -274,18 +297,24 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">
+                <!-- item -->
+                <h4
+                  id="nameSportsBlackCap"
+                  class="text-[#111] text-lg font-semibold"
+                >
                   Sports Black Cap
                 </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">49.00</span>TK
+                  <span id="sportsBlackCapPrice">49.00</span>TK
                 </p>
               </div>
             </div>
 
             <!-- card 2 of sportswear  -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameFullJerseySet','fullJerseySetPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -326,17 +355,23 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">
+                <!-- item -->
+                <h4
+                  id="nameFullJerseySet"
+                  class="text-[#111] text-lg font-semibold"
+                >
                   Full Jersey Set
                 </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">69.00</span>TK
+                  <span id="fullJerseySetPrice">69.00</span>TK
                 </p>
               </div>
             </div>
             <!-- card 3 of sportswear -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameSportsCates','sportsCatesPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -377,10 +412,15 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">Sports Cates</h4>
+                <!-- item -->
+                <h4
+                  id="nameSportsCates"
+                  class="text-[#111] text-lg font-semibold"
+                >
+                  Sports Cates
+                </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">159.00</span>TK
+                  <span id="sportsCatesPrice">159.00</span>TK
                 </p>
               </div>
             </div>
@@ -397,7 +437,10 @@
           <!-- Furniture card container -->
           <div class="grid md:grid-cols-2lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <!-- card 1 of furniture -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameSingleRelaxChair','singleRelaxChairPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -433,18 +476,24 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">
+                <!-- item -->
+                <h4
+                  id="nameSingleRelaxChair"
+                  class="text-[#111] text-lg font-semibold"
+                >
                   Single Relax Chair
                 </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">185.00</span>TK
+                  <span id="singleRelaxChairPrice">185.00</span>TK
                 </p>
               </div>
             </div>
 
             <!-- card 2 of furniture -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameChildrenPlay','childrenPlayPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -485,15 +534,23 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">Children Play</h4>
+                <!-- item -->
+                <h4
+                  id="nameChildrenPlay"
+                  class="text-[#111] text-lg font-semibold"
+                >
+                  Children Play
+                </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">299.00</span>TK
+                  <span id="childrenPlayPrice">299.00</span>TK
                 </p>
               </div>
             </div>
             <!-- card 3 of furniture -->
-            <div id="" class="card bg-white rounded-lg p-3 md:p-5">
+            <div
+              onclick="Listener('nameFlexibleSofa','flexibleSofaPrice')"
+              class="card bg-white rounded-lg p-3 md:p-5"
+            >
               <figure
                 class="px-10 lg:px-16 py-8 bg-[rgba(17,17,17,0.05)] rounded-lg"
               >
@@ -534,10 +591,15 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-
-                <h4 class="text-[#111] text-lg font-semibold">Flexible Sofa</h4>
+                <!-- item -->
+                <h4
+                  id="nameFlexibleSofa"
+                  class="text-[#111] text-lg font-semibold"
+                >
+                  Flexible Sofa
+                </h4>
                 <p class="text-[rgba(17,17,17,0.50)] text-lg">
-                  <span id="price">339.00</span>TK
+                  <span id="flexibleSofaPrice">339.00</span>TK
                 </p>
               </div>
             </div>
@@ -558,11 +620,11 @@
               <input
                 type="text"
                 placeholder="Coupon Code"
-                id=""
+                id="couponCode"
                 class="pl-4 py-4 border border-[rgba(17,17,17,0.15)] rounded"
               />
               <button
-                id=""
+                id="applyBtn"
                 class="bg-[#E527B2] text-white px-4 py-4 rounded-[0px_8px_8px_0px]"
                 disabled
               >
@@ -573,26 +635,33 @@
           <!-- item list,price calculate and purchase button container -->
           <div class="bg-white rounded-lg p-5 space-y-6">
             <!-- item list container -->
-            <ul id="" class=""></ul>
+            <ul
+              id="productListContainer"
+              class="text-[#111] text-xl font-medium"
+            ></ul>
             <hr />
             <!-- price calculate container -->
             <div id="" class="">
               <!-- total price -->
               <h3 id="" class="text-[#111] text-2xl font-medium">
                 Total Price:
-                <span id="" class="text-[rgba(17,17,17,0.50)]">00.00</span>
+                <span id="totalPrice" class="text-[rgba(17,17,17,0.50)]"
+                  >00.00</span
+                >
                 <span class="text-[rgba(17,17,17,0.50)]">TK</span>
               </h3>
               <!-- discount -->
               <h3 id="" class="text-[#111] text-2xl font-medium">
                 Discount:
-                <span id="" class="text-[rgba(17,17,17,0.50)]">00.00</span>
+                <span id="discountContainer" class="text-[rgba(17,17,17,0.50)]"
+                  >00.00</span
+                >
                 <span class="text-[rgba(17,17,17,0.50)]">TK</span>
               </h3>
               <!-- total -->
               <h3 id="" class="text-[#111] text-2xl font-medium">
                 Total:
-                <span id="" class="text-[rgba(17,17,17,0.50)]">00.00</span>
+                <span id="total" class="text-[rgba(17,17,17,0.50)]">00.00</span>
                 <span class="text-[rgba(17,17,17,0.50)]">TK</span>
               </h3>
             </div>
@@ -608,15 +677,27 @@
             </button>
             <dialog id="my_modal_1" class="modal text-center">
               <div class="modal-box p-5 md:p-8 lg:p-14 w-64 md:w-[420px]">
-                <img src="images/congo.png" alt="" class="w-20 md:w-36 m-auto mb-4 md:mb-8">
-                <h2 class="font-bold text-2xl md:text-4xl mb-2">Congratulations</h2>
-                <p class="text-[rgba(17,17,17,0.50)] text-sm md:text-lg mb-4 md:mb-8">
+                <img
+                  src="images/congo.png"
+                  alt=""
+                  class="w-20 md:w-36 m-auto mb-4 md:mb-8"
+                />
+                <h2 class="font-bold text-2xl md:text-4xl mb-2">
+                  Congratulations
+                </h2>
+                <p
+                  class="text-[rgba(17,17,17,0.50)] text-sm md:text-lg mb-4 md:mb-8"
+                >
                   You purchase the product
                 </p>
-                
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="bg-[#E527B2] text-white px-8 py-3 rounded-lg">Go Home</button>
-                 
+
+                <!-- if there is a button in form, it will close the modal -->
+                <button
+                  onclick="goHome()"
+                  class="bg-[#E527B2] text-white px-8 py-3 rounded-lg"
+                >
+                  Go Home
+                </button>
               </div>
             </dialog>
           </div>
